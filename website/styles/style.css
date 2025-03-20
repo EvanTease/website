@@ -1,0 +1,92 @@
+nav{
+    background-color: rgb(46, 139, 87);
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px greenyellow;
+    border-radius: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    background-color: yellow;
+    color: rgb(255, 255, 255);
+}
+
+nav ul :hover{
+    background-color: yellow;
+}
+
+header{
+    background-color: rgb(46, 139, 87);
+    padding: 10px;
+}
+
+.homeheader{
+    text-align: right;
+    color: rgb(255, 255, 255)
+}
+
+footer{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: darkolivegreen;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: black;
+    font-family: Verdana;
+    margin: 0;
+}
+
+.product{
+    margin: auto;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.colour{
+    color: white;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 40%;
+    border: 7px solid white;
+}
+
+.text{
+    color: white;
+}
+
+h1, h2{
+    color: rgba(46, 139, 87);    /*this is a CSS ID Tag*/
+}
+
+.logo{
+    border-radius: 30px;
+    border: solid black;
+}
